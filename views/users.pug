@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= "api test"
+  form(method="post" id="signin-form")
+    input(type="text" id="Username" name="Username" value="username")
+    br
+    input(type="text" id="Password" name="Password" value="password")
+    br
+    input(type="text" id="Gold" name="Gold" value="gold")
+    button(type="submit" id="signin-button") signin
